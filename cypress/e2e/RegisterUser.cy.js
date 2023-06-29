@@ -6,7 +6,7 @@ import SignupLoginPage from "../support/Pages/SignupLoginPage"
 describe('Should be create a new account and delete', () => {
     beforeEach(() => {
     cy.visit(Cypress.env('baseUrl'))
-    cy.viewport(1300, 800)
+    cy.viewport(1400, 800)
     })
 
     it('Create Account', () => {
